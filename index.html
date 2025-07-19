@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Legal Solution website | TailwindCSS</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="flex flex-col items-center justify-center gap-5 mt-8 border-0 md:flex-row md:gap-8 md:items-center md:justify-center lg:justify-evenly xl:justify-evenly lg:mx-20">
+            <div>
+                <img class="max-w-[158px]" src="./assets/logo2.png" alt="">
+            </div>
+
+            <div>
+                <ul class="flex flex-col items-center justify-between gap-4 md:flex-row md:gap-2">
+                    <li><a href="#">Home</a></li>
+                    <li class="flex items-center gap-1">
+                        <a href="#">Services </a>
+                        <img src="./assets/arrow2.png" alt="">
+                    </li>
+                    <li class="flex items-center gap-1">
+                        <a href="#">Cases</a>
+                        <img src="./assets/arrow2.png" alt="">
+                    </li>
+                    <li class="flex items-center gap-1">
+                        <a href="#">Blog</a>
+                        <img src="./assets/arrow2.png" alt="">
+                    </li>
+                    <li class="flex items-center gap-1">
+                        <a href="#">Contact Us</a>
+                        <img src="./assets/arrow2.png" alt="">
+                    </li>
+                </ul>
+            </div>
+
+            <button class="bg-[#B68C5A] px-8 py-4 rounded-xl text-white text-[18px] md:px-3 md:py-2">Free Consultation</button>
+        </nav>
+    </header>
 </body>
 </html>
